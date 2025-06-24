@@ -1,4 +1,4 @@
-# NBA Grid 3×3  
+# NBA 3×3  
 ![Foto1](./public/foto1.jpeg)  
 
 Un juego web para llenar un cuadrante 3×3 con jugadores que hayan pasado por ambos equipos seleccionados.  
