@@ -1,7 +1,7 @@
 # NBA Grid Game
 
-![Game Screenshot 1](public/c1.png)
-![Game Screenshot 2](public/c2.png)
+![Game Screenshot 1](public/c1.PNG)
+![Game Screenshot 2](public/c2.PNG)
 
 A web-based NBA puzzle game where players must fill a 3x3 grid with NBA players who have played for the intersecting teams.
 
