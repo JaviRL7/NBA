@@ -3,15 +3,33 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "auth": "node auth-backend.js",
+    "auth-pg": "node auth-postgresql.js",
+    "dev": "nodemon index.js",
+    "dev-auth": "nodemon auth-backend.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nba",
+    "grid",
+    "api",
+    "basketball"
+  ],
+  "author": "Javier Rodriguez Lopez",
   "license": "ISC",
-  "description": "",
+  "description": "NBA Grid Challenge API with authentication",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "node-fetch": "^2.7.0"
+    "google-auth-library": "^9.15.1",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.16.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
